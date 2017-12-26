@@ -1,0 +1,115 @@
+#wrapper{font-family:tahoma;}
+.container {width:90%;
+		margin:0 auto;
+			}
+#subheader{
+		width:100%;
+		height:30px;
+		background:#0a930a;
+		color:#fff;
+		margin-top:-15px;
+			}
+#subheader p{
+		float:left;
+		margin-top:7px;
+			}
+#subheader a{
+		float:right;
+		line-height:30px;
+		color:#fff;
+		text-decoration:none;
+		margin-left:30px;
+			}
+	/*logo-styling*/
+#main-header{
+		width:100%;
+		height:100px;
+		background:#1aaa1a;
+		float:left;
+		margin-top:-15px;
+		}
+#logo{
+	width:250px;
+	margin-top:10px;
+	float:left;
+	}
+#ist{
+	color:black;
+	font-size:45px;
+	font-weight:bold;
+	margin-left:15px;
+	}
+#iist{
+	color:black;
+	font-size:35px;
+	font-weight:bold;
+	}
+/*searching styling*/
+#search{
+	width:650px;
+	float:left;
+	padding:20px;
+	margin-left:50px;
+	}
+.search-area {
+		width:650px;
+		height:50px;
+		background:#fff;
+		border:none;
+		border-radius:10px;
+		float:left;
+		padding-left:15px;
+			}
+.search-button {
+		width:100px;
+		height:50px;
+		border-radius:10px;
+		border:none;
+		color:#fff;
+		background: brown;
+		margin-left:650px;
+		margin-top:-50px;
+			}
+/* User menu*/
+#user-menu {
+	width:150px;
+	float:right;
+	margin-top:25px;
+	font-size:25px;
+	margin-left:100px;
+			}
+#user-menu a {
+	color:white;
+	text-decoration:none;
+			}
+#user-menu a:hover{
+	color:#000;
+	transition: .7s ease;
+}
+/*navigation*/
+#navigation {
+	width:100%;
+	height:35px;
+	background:#1aaa1a;
+	float:left;
+	box-shadow: 10px 14px 50px 2px #1aaa1a;
+}
+nav {
+	width:1280px;
+	margin:0 auto;
+}
+nav a{
+	margin-left:35px;
+	color:white;
+	text-decoration:none;
+}
+nav a:hover{
+	color:#000;
+	transition:all .7s ease;
+}
+		
+	
+
+		
+	
+	
