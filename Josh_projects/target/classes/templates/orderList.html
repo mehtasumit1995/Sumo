@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Product List</title>
+      <link rel="stylesheet" type="text/css" th:href="@{/styles.css}"/>
+   </head>
+   <body>
+
+ 
+<table width="1200" height="100">
+<tr>
+<th align="center">Product Id</th>
+<th align="center">Product Name</th>
+<th align="center">Customer ID</th>
+<th align="center">Customer Name</th>
+<!-- <th>Quantity</th> -->
+<th align="center">Price</th>
+</tr>
+<tr></tr>
+<tr th:each="prodInf : ${prodInfo}">
+	<td align="left"><span th:utext="${prodInf.productId}"></span></td>
+	<td align="left"><span th:utext="${prodInf.productName}"></span></td>
+	<td align="left"><span th:utext="${details.id}"></span></td>
+	<td align="left"><span th:utext="${details.firstName+' '+details.lastName}"></span></td>
+	<td align="left"><span th:utext="${prodInf.productPrice}"></span></td>
+	<td align="left"><a href="#"><img th:src="@{/images/tick.png}" width="30" title="Mark as Delivered" align="center"/> </a></td>
+	<td></td>
+	<td align="center"><a href="/cancel"><img th:src="@{/images/wrong.jpg}" width="30" title="Cancel" align="center"/></a></td>
+</tr>
+
+</table>
+      <th:block th:include="/_footer"></th:block>
+       
+   </body>
+</html>

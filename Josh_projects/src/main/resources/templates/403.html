@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="stylesheet" type="text/css" th:href="@{/bootstrap.min.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/font-awesome.min.css}" />
+<link rel="stylesheet" type="text/css" th:href="@{/main.css}" />
+<title>Access Denied</title>
+</head>
+<body>
+	<th:block th:include="/_header1"></th:block>
+	<div class="container text-center">
+		<div class="logo-404">
+			<a href="/home1"><img th:src="@{/images/logo.jpg}"/></a>
+		</div>
+		<div class="content-404">
+			<img th:src="@{/images/404.png}" class="img-responsive"/>
+			<h1>
+				<b>OPPS!</b> We Couldn’t Find this Page
+			</h1>
+			<p>Uh... So it looks like you brock something. The page you are
+				looking for has up and Vanished.</p>
+			<h2>
+				<a href="/home1">Bring me back Home</a>
+			</h2>
+		</div>
+	</div>
+	<th:block th:include="/_footer"></th:block>
+</body>
+</html>

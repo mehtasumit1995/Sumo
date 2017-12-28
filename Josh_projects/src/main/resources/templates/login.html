@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <meta charset="UTF-8"/>
+      <title>Login</title>
+      <link rel="stylesheet" type="text/css" th:href="@{/styles.css}"/>
+   </head>
+   <body>
+      <th:block th:include="/_header"></th:block>
+      <th:block th:include="/_menu"></th:block>
+       
+      <div class="page-title">Login (For Employee, Manager)</div>
+       
+      
+       
+      <div style="text-align:left">
+          <h3>User/Password:</h3>
+          <ul>        
+             <li>employee1/123</li>
+             <li>manager1/123</li>   
+          </ul>
+      </div>   
+      <th:block th:include="/_footer"></th:block>
+      
+   </body>
+</html>
